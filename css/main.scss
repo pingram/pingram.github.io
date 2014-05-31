@@ -1,0 +1,42 @@
+$light-gray:#D5D7DD;
+$teal:#1babb7;
+$light-green:#6ab29f;
+$dark-gray:#333a3e;
+$red:#d0482b;
+$off-black:#231f20;
+
+$colors: $light-gray, $teal, $light-green, $dark-gray, $red, $off-black;
+
+
+
+/* JQUERY.WINDOWS */
+
+html {
+    margin:0;
+    padding:0;
+}
+
+body {
+    margin:0;
+    padding:0;
+}
+
+.window {
+    width:100%;
+    height:100%;
+    // position:absolute;
+}
+
+// @for $i from 1 through 6{
+//     .window:nth-child(#{$i}){
+//         background:nth($colors, $i);
+//         top:($i - 1) * 100%;
+//     }
+// }
+
+section#a0 {
+  background: url(../images/BeautifulMountains423.jpg) no-repeat center center fixed;
+}
+
+
+ // @import "bootstrap";
