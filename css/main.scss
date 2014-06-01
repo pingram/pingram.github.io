@@ -91,8 +91,11 @@ h2 {
   color: #c9d6de;
   width: 100%;
   position: absolute;
-  top: 105%;
   text-align: center;
+}
+
+section#a1 h2 {
+  top: 105%;
 }
 
 section#a1 {
@@ -135,4 +138,14 @@ div#projects2 div {
   border: solid 2px #CCC; -moz-box-shadow: 2px 2px 5px #999; -webkit-box-shadow: 2px 2px 5px #999; box-shadow: 2px 2px 5px #999;
 }
 
-// #a1 h2 
+
+
+/* PAGE 2 */
+
+section#a2 {
+  background: #996633;
+}
+
+section#a2 h2 {
+  top: 205%;
+}
