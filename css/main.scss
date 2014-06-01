@@ -47,11 +47,11 @@ h2 {
   width: 100%;
   position: absolute;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
 }
 
 h2, p, h1 {
   color: #c9d6de;
+  font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -189,5 +189,25 @@ div#projects2 div {
   border: solid 2px #CCC; -moz-box-shadow: 2px 2px 5px #999; -webkit-box-shadow: 2px 2px 5px #999; box-shadow: 2px 2px 5px #999;
 }
 
+.project-technologies {
+  position: absolute;
+  top: 268%;
+  width: 25%;
+  left: 8%;
+}
 
+.project-description {
+  font-size: 20px;
+  position: absolute;
+  top: 268%;
+  width: 25%;
+  left: 65%;
+}
 
+#phlickr-details, #trellino-details, #asteroids-details {
+  display: none;
+}
+
+.project-technologies p:nth-child(2) {
+  font-size: 24px;
+}
