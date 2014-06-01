@@ -84,7 +84,6 @@ section#a0 {
   width: 100%;
   text-align: center;
   text-shadow: 1px 1px 7px rgba(0, 0, 0, 1);
-  font-family: 'Montserrat', sans-serif;
   letter-spacing: 0.3em;
   // letter-spacing: 1em;
   font-weight: bold;
@@ -99,7 +98,6 @@ section#a0 {
   top: 10px;
   text-align: center;
   text-shadow: 1px 1px 7px rgba(0, 0, 0, 1);
-  font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -210,4 +208,22 @@ div#projects2 div {
 
 .project-technologies p:nth-child(2) {
   font-size: 24px;
+}
+
+
+
+/* PAGE 3 */
+
+section#a3 {
+  background: url(../images/looking_out.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#a3 h2 {
+  color: white;
+  top: 305%;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
 }
