@@ -3,7 +3,7 @@ $(document).ready(function(){
     $('.window').windows({
         snapping: true,
         snapSpeed: 500,
-        snapInterval: 400, // originally 1100
+        snapInterval: 600, // originally 1100
         onScroll: function(scrollPos){
             // scrollPos:Number
         },
@@ -15,4 +15,10 @@ $(document).ready(function(){
         }
     })
 
+    // $('img').adipoli({
+    //   'startEffect' : 'grayscale',
+    //   'hoverEffect' : 'popout'
+    // });
+
 });
+
