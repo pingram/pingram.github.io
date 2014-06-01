@@ -91,7 +91,7 @@ h2 {
   color: #c9d6de;
   width: 100%;
   position: absolute;
-  top: 115%;
+  top: 105%;
   text-align: center;
 }
 
@@ -99,12 +99,17 @@ section#a1 {
   background: #274F7D;
 }
 
-div#projects div {
+div.projects div {
   display: inline-block;
   position: absolute;
-  // top: 20%;
-  top: 140%;
-  // left: 7%;
+}
+
+div#projects1 div {
+  top: 120%;
+}
+
+div#projects2 div {
+  top: 150%;
 }
 
 #project-phlickr {
@@ -115,13 +120,17 @@ div#projects div {
   left: 53%;
 }
 
-#projects img {
+#project-asteroids {
+  left: 35%;
+}
+
+.projects img {
   height: 300px;
-  top: 20%;
+  // top: 20%;
   margin: 6px;
 }
 
-#projects img:hover {
+.projects img:hover {
   margin: 4px;
   border: solid 2px #CCC; -moz-box-shadow: 2px 2px 5px #999; -webkit-box-shadow: 2px 2px 5px #999; box-shadow: 2px 2px 5px #999;
 }
