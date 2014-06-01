@@ -3,7 +3,7 @@ $(document).ready(function(){
     $('.window').windows({
         snapping: true,
         snapSpeed: 500,
-        snapInterval: 600, // originally 1100
+        snapInterval: 1100, // originally 1100
         onScroll: function(scrollPos){
             // scrollPos:Number
         },

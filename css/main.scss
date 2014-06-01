@@ -8,6 +8,9 @@ $off-black:#231f20;
 $colors: $light-gray, $teal, $light-green, $dark-gray, $red, $off-black;
 
 
+// colors: red: #c76348, purple: #93729d, gray-silver: #7a857e, 
+// solidgray: #3B3B3B, grayblue: #46526A
+
 
 /* JQUERY.WINDOWS */
 
@@ -34,26 +37,38 @@ body {
 //     }
 // }
 
+
+
+/* ALL PAGES */
+
+h2 {
+  margin: 0px;
+  font-size: 60px;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2, p, h1 {
+  color: #c9d6de;
+}
+
+
+
+/* PAGE 0 */
+
 section#a0 {
-  // background: url(../images/BeautifulMountains423.jpg) no-repeat center center fixed;
-  // background: url(../images/1452713.jpg) no-repeat center center fixed;
   // background: url(../images/Tree_Galaxy_Milky_Way_Night_Stars_1920x1080.jpg) no-repeat center center fixed;
   background: url(../images/california_joshua_tree_min.jpg) no-repeat center center fixed;
   // background: url(https://s3.amazonaws.com/pingram-co/california_joshua_tree_national_park_milky_way_geographic_1920x1200_73244.jpg) no-repeat center center fixed;
-
-
   // background: url(http://www.wallpaperup.com/uploads/wallpapers/2013/11/09/171741/a6103f6e0776414182670f9f7ac8cda7.jpg) no-repeat center center fixed;
-
   // background: url(http://www.picviw.com/wp-content/uploads/2014/02/free-seasonal-desktop-backgrounds.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
-
-
-
-/* PAGE 0 */
 
 #p1-name {
   width: 100%;
@@ -69,30 +84,27 @@ section#a0 {
   width: 100%;
   text-align: center;
   text-shadow: 1px 1px 7px rgba(0, 0, 0, 1);
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.3em;
+  // letter-spacing: 1em;
+  font-weight: bold;
 }
 
 #p1-name p {
   margin: inherit;
   position: relative;
-  font-size: 30px;
+  font-size: 26px;
   font-weight: bold;
   color: #c9d6de;
+  top: 10px;
   text-align: center;
   text-shadow: 1px 1px 7px rgba(0, 0, 0, 1);
+  font-family: 'Montserrat', sans-serif;
 }
 
 
 
 /* PAGE 1 */
-
-h2 {
-  margin: 0px;
-  font-size: 60px;
-  color: #c9d6de;
-  width: 100%;
-  position: absolute;
-  text-align: center;
-}
 
 section#a1 h2 {
   top: 105%;
@@ -100,6 +112,7 @@ section#a1 h2 {
 
 section#a1 {
   background: #274F7D;
+  background: #d0a843;
 }
 
 div.projects div {
@@ -143,9 +156,38 @@ div#projects2 div {
 /* PAGE 2 */
 
 section#a2 {
-  background: #996633;
+  background: url(../images/ironman_stark.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
+
+// section#a2 {
+//   background: #996633;
+// }
 
 section#a2 h2 {
   top: 205%;
+}
+
+#about-blurbs {
+  font-size: 18px;
+  position: absolute;
+  top: 220%;
+  left: 55%;
+  width: 40%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#about-not-me {
+  font-size: 30px;
+  transform:rotate(-40deg);
+  -ms-transform:rotate(-40deg); /* IE 9 */
+  -webkit-transform:rotate(-40deg); /* Opera, Chrome, and Safari */
+  position: absolute;
+  top: 223%;
+  left: 10%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
 }
