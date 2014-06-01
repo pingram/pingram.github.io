@@ -106,13 +106,51 @@ section#a0 {
 
 /* PAGE 1 */
 
+section#a1 {
+  background: url(../images/ironman_stark.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 section#a1 h2 {
   top: 105%;
 }
 
-section#a1 {
+#about-blurbs {
+  font-size: 18px;
+  position: absolute;
+  top: 120%;
+  left: 55%;
+  width: 40%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#about-not-me {
+  font-size: 30px;
+  transform:rotate(-40deg);
+  -ms-transform:rotate(-40deg); /* IE 9 */
+  -webkit-transform:rotate(-40deg); /* Opera, Chrome, and Safari */
+  position: absolute;
+  top: 123%;
+  left: 10%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+
+
+/* PAGE 2 */
+
+section#a2 h2 {
+  top: 205%;
+}
+
+section#a2 {
   background: #274F7D;
-  background: #d0a843;
+  // background: #d0a843;
+  // background: #996633;
 }
 
 div.projects div {
@@ -121,11 +159,11 @@ div.projects div {
 }
 
 div#projects1 div {
-  top: 120%;
+  top: 220%;
 }
 
 div#projects2 div {
-  top: 150%;
+  top: 250%;
 }
 
 #project-phlickr {
@@ -153,41 +191,3 @@ div#projects2 div {
 
 
 
-/* PAGE 2 */
-
-section#a2 {
-  background: url(../images/ironman_stark.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-// section#a2 {
-//   background: #996633;
-// }
-
-section#a2 h2 {
-  top: 205%;
-}
-
-#about-blurbs {
-  font-size: 18px;
-  position: absolute;
-  top: 220%;
-  left: 55%;
-  width: 40%;
-  font-family: 'Montserrat', sans-serif;
-}
-
-#about-not-me {
-  font-size: 30px;
-  transform:rotate(-40deg);
-  -ms-transform:rotate(-40deg); /* IE 9 */
-  -webkit-transform:rotate(-40deg); /* Opera, Chrome, and Safari */
-  position: absolute;
-  top: 223%;
-  left: 10%;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
-}
