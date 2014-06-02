@@ -252,9 +252,21 @@ section#a3 {
   position: absolute;
   width: 30%;
   left: 10%;
-  top: 325%;
+  top: 335%;
   background: #606060;
   padding: 20px 40px;
   box-sizing: border-box;
   background: rgba(255, 255, 255, 0.2);
+}
+
+#contact-links {
+  position: absolute;
+  top: 355%;
+  left: 13%;
+  width: 40%;
+}
+
+#a3 img {
+  height: 15%;
+  padding: 5%;
 }
