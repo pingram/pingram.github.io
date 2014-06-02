@@ -49,9 +49,13 @@ h2 {
   text-align: center;
 }
 
-h2, p, h1 {
+h2, p, h1, a {
   color: #c9d6de;
   font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;  
 }
 
 
@@ -215,15 +219,42 @@ div#projects2 div {
 /* PAGE 3 */
 
 section#a3 {
-  background: url(../images/looking_out.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  // background: url(../images/looking_out.jpg) no-repeat center center fixed;
+  // -webkit-background-size: cover;
+  // -moz-background-size: cover;
+  // -o-background-size: cover;
+  // background-size: cover;
+  background: #3B3B3B;
 }
 
 #a3 h2 {
   color: white;
   top: 305%;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+}
+
+.fluid-wrapper {
+  position: absolute;
+  // padding-bottom: 56.25%; /* 16:9 */
+  top: 325%;
+  left: 50%;
+  height: 0;
+}
+.fluid-wrapper iframe {
+  position: absolute;
+
+  // width: 100%;
+  // height: 100%;
+  border: none;
+}
+
+#contact-box {
+  position: absolute;
+  width: 30%;
+  left: 10%;
+  top: 325%;
+  background: #606060;
+  padding: 20px 40px;
+  box-sizing: border-box;
+  background: rgba(255, 255, 255, 0.2);
 }
