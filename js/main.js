@@ -45,3 +45,8 @@ $(document).ready(function(){
   })
 });
 
+$('<img/>').attr('src', '../images/california_joshua_tree_min3.jpg').load(function() {
+   // $(this).remove(); // prevent memory leaks as @benweet suggested
+   alert('image loaded!');
+   $('body').css('background-image', 'url(http://picture.de/image.png)');
+});
