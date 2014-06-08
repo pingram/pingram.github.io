@@ -219,32 +219,23 @@ div#projects2 div {
 /* PAGE 3 */
 
 section#a3 {
-  // background: url(../images/looking_out.jpg) no-repeat center center fixed;
-  // -webkit-background-size: cover;
-  // -moz-background-size: cover;
-  // -o-background-size: cover;
-  // background-size: cover;
   background: #3B3B3B;
 }
 
 #a3 h2 {
-  color: white;
+  color: #D8D8D8;
   top: 305%;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
 }
 
 .fluid-wrapper {
   position: absolute;
-  // padding-bottom: 56.25%; /* 16:9 */
-  top: 325%;
+  top: 320%;
   left: 50%;
   height: 0;
 }
 .fluid-wrapper iframe {
   position: absolute;
-
-  // width: 100%;
-  // height: 100%;
   border: none;
 }
 
@@ -258,6 +249,12 @@ section#a3 {
   box-sizing: border-box;
   background: rgba(255, 255, 255, 0.2);
   font-size: 24px;
+  -webkit-border-radius: 7px;
+     -moz-border-radius: 7px;
+          border-radius: 7px;
+  -webkit-box-shadow: 10px 10px 19px -2px rgba(0,0,0,0.71);
+     -moz-box-shadow: 10px 10px 19px -2px rgba(0,0,0,0.71);
+          box-shadow: 10px 10px 19px -2px rgba(0,0,0,0.71);
 }
 
 #contact-links {
@@ -272,6 +269,26 @@ section#a3 {
   padding: 5%;
 }
 
-// #a3 p {
-//   font-size: 
-// }
+#a3 #github-contact img:hover {
+  background: #888888;
+  padding: 0%;
+  margin: 5%;
+  -webkit-border-radius: 9999px;
+     -moz-border-radius: 9999px;
+          border-radius: 9999px;
+}
+
+#a3 #linkedin-contact img:hover {
+  background: #888888;
+  padding: 0%;
+  margin: 5%;
+  -webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+          border-radius: 10px;
+}
+
+iframe {
+  -webkit-box-shadow: 10px 10px 19px -2px rgba(0,0,0,0.71);
+     -moz-box-shadow: 10px 10px 19px -2px rgba(0,0,0,0.71);
+          box-shadow: 10px 10px 19px -2px rgba(0,0,0,0.71);
+}
