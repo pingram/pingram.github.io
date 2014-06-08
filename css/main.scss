@@ -241,8 +241,6 @@ section#a3 {
 
 #contact-box {
   position: absolute;
-  width: 30%;
-  left: 10%;
   top: 332%;
   background: #606060;
   padding: 10px 40px;
@@ -256,6 +254,36 @@ section#a3 {
      -moz-box-shadow: 10px 10px 19px -2px rgba(0,0,0,0.71);
           box-shadow: 10px 10px 19px -2px rgba(0,0,0,0.71);
 }
+
+@media (min-width: 1200px) {
+  #contact-box {
+    font-size: 24px;
+    width: 34%;
+    left: 12%;
+  }
+}
+@media (max-width: 1200px) {
+  #contact-box {
+    font-size: 22px;
+    width: 40%;
+    left: 5%;
+  }
+}
+@media (max-width: 992px) {
+  #contact-box {
+    font-size: 18px;
+    width: 40%;
+    left: 5%;
+    padding: 10px 30px;
+  }
+}
+@media (max-width: 768px) {
+  #contact-box {
+    font-size: 12px;
+    padding: 10px 20px;
+  }
+}
+
 
 #contact-links {
   position: absolute;
