@@ -79,19 +79,31 @@ section#a0 {
   top: 20%;
   position: absolute;
   margin: 0px;
+
+  h1 {
+    margin: inherit;
+    font-size: 60px;
+    color: #c9d6de;
+    width: 100%;
+    text-align: center;
+    text-shadow: 1px 1px 7px rgba(0, 0, 0, 1);
+    letter-spacing: 0.3em;
+    // letter-spacing: 1em;
+    font-weight: bold;
+  }
 }
 
-#p1-name  h1 {
-  margin: inherit;
-  font-size: 60px;
-  color: #c9d6de;
-  width: 100%;
-  text-align: center;
-  text-shadow: 1px 1px 7px rgba(0, 0, 0, 1);
-  letter-spacing: 0.3em;
-  // letter-spacing: 1em;
-  font-weight: bold;
-}
+// #p1-name  h1 {
+//   margin: inherit;
+//   font-size: 60px;
+//   color: #c9d6de;
+//   width: 100%;
+//   text-align: center;
+//   text-shadow: 1px 1px 7px rgba(0, 0, 0, 1);
+//   letter-spacing: 0.3em;
+//   // letter-spacing: 1em;
+//   font-weight: bold;
+// }
 
 #p1-name p {
   margin: inherit;
