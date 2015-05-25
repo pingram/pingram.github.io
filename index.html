@@ -6,9 +6,12 @@
   <link rel="stylesheet" type="text/scss" href="css/bootstrap-theme.min.css">
   <script type="text/javascript" src="js/bootstrap.min.js"></script>-->
 
-  <script type="text/javascript" src="js/jquery.windows.js"></script>
+  <!-- <script type="text/javascript" src="js/jquery.windows.js"></script> -->
   <script type="text/javascript" src="js/jquery.adipoli.min.js"></script>
   <link rel="stylesheet" type="text/scss" href="css/adipoli.css">
+
+  <link rel="stylesheet" type="text/scss" href="css/jquery.fullPage.css">
+  <script type="text/javascript" src="js/jquery.fullPage.js"></script>
 
   <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
@@ -17,21 +20,33 @@
 
   <link rel="shortcut icon" href="favicon.ico" />
   <title>pingram</title>
-</head>
-  
-  <body>
 
-    <section id="a0" class="window">
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('#fullpage').fullpage({
+        // sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
+        // anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
+        // menu: '#menu',
+        // css3: true,
+        // scrollingSpeed: 1000
+      });
+    });
+  </script>
+</head>
+<body>
+
+  <div id="fullpage">
+
+    <div id="a0" class="section">
       <div class="content">
         <div id="p1-name">
           <h1>phil ingram</h1>
           <p>rails developer, javascript enthusiast</p>
         </div>
-        <h2></h2>
       </div>
-    </section>
+    </div>
 
-    <section id="a1" class="window">
+    <div id="a1" class="section">
       <div class="content">
         <h2>ABOUT ME</h2>
         <div id="about-blurbs">
@@ -42,83 +57,81 @@
             I originally started out in mechanical engineering at Vanderbilt University after watching the inspiring Iron Man I. It turns out, though, that not all people are meant to build giant flying robots. After my tenth jarring crash on the lab's lawn, I welded my feet firmly to the ground.
           </p>
           <p id="about-blurb3">
-            Since then, I've worked in technical support at OSIsoft, a company based in the south bay. A few web dev projects in, I discovered my passion for building apps, and set out to learn more. 
+            Since then, I've worked in technical support at OSIsoft, a company based in the south bay. A few web dev projects in, I discovered my passion for building apps, and set out to learn more.
           </p>
         </div>
         <div id="about-not-me">
           <p>NOT ME</p>
         </div>
       </div>
-    </section>
+    </div>
 
-    <section id="a2" class="window">
-        <div class="content">
-            <h2>PORTFOLIO</h2>
+    <div id="a2" class="section">
+      <div class="content">
+        <h2>PORTFOLIO</h2>
 
-            <div id="projects1" class="projects">
-              <div id="project-phlickr">
-                <a href="http://www.phlickr.co/" target="new">
-                  <img src="images/phlickr_cover.jpg">
-                </a>
-              </div>
-              
-              <div id="project-trellino">
-                <a href="http://pingram-trellino.herokuapp.com/" target="new">
-                  <img src="images/trellino_cover.jpg">
-                </a>
-              </div>
-            </div>
+        <div id="projects1" class="projects">
+          <div id="project-phlickr">
+            <a href="http://www.phlickr.co/" target="new">
+              <img src="images/phlickr_cover.jpg">
+            </a>
+          </div>
 
-            <div id="projects2" class="projects">
-               <div id="project-asteroids">
-                <a href="http://pingram.github.io/asteroids/" target="new">
-                  <img src="images/asteroids_cover.jpg">
-                </a>
-              </div>
-            </div>
-
-            <div id="phlickr-details">
-              <div id="phlickr-technologies" class="project-technologies">
-                <p>TECHNOLOGIES</p>
-                <p>RoR, Backbone.js, Bootstrap, AWS , Flickr API, dropzone.js</p>
-              </div>
-              <div id="phlickr-description" class="project-description">
-                <!-- <p>DESCRIPTION</p> -->
-                <p>A clone of the site fickr.co. Things to note are the custom sizing algorithm on the explore page, the same page's infinite scroll and flickr API integration, and extensive use of Backbone.js</p>
-              </div>
-            </div>
-
-            <div id="trellino-details">
-              <div id="trellino-technologies" class="project-technologies">
-                <p>TECHNOLOGIES</p>
-                <p>RoR, Backbone.js, Bootstrap, jQuery UI draggable, droppable</p>
-              </div>
-              <div id="trellino-description" class="project-description">
-                <!-- <p>DESCRIPTION</p> -->
-                <p>A clone of the site Trello.com. It demonstrates the interactive jQuery UI library and how to transform web sites into web apps.</p>
-              </div>
-            </div>
-
-            <div id="asteroids-details">
-              <div id="asteroids-technologies" class="project-technologies">
-                <p>TECHNOLOGIES</p>
-                <p>Javascript, HTML5 canvas, underscore.js, jQuery</p>
-              </div>
-              <div id="asteroids-description" class="project-description">
-                <p>A remake of the classic arcade game!. Vector math was used to calculate asteroid trajectories. Upon disappearing off the screen, asteroids are removed and a new one is generated with random position and velocity.</p>
-              </div>
-            </div>
-
+          <div id="project-trellino">
+            <a href="http://pingram-trellino.herokuapp.com/" target="new">
+              <img src="images/trellino_cover.jpg">
+            </a>
+          </div>
         </div>
-    </section>
 
-    <section id="a3" class="window">
+        <div id="projects2" class="projects">
+           <div id="project-asteroids">
+            <a href="http://pingram.github.io/asteroids/" target="new">
+              <img src="images/asteroids_cover.jpg">
+            </a>
+          </div>
+        </div>
+
+        <div id="phlickr-details">
+          <div id="phlickr-technologies" class="project-technologies">
+            <p>TECHNOLOGIES</p>
+            <p>RoR, Backbone.js, Bootstrap, AWS , Flickr API, dropzone.js</p>
+          </div>
+          <div id="phlickr-description" class="project-description">
+            <p>A clone of the site fickr.co. Things to note are the custom sizing algorithm on the explore page, the same page's infinite scroll and flickr API integration, and extensive use of Backbone.js</p>
+          </div>
+        </div>
+
+        <div id="trellino-details">
+          <div id="trellino-technologies" class="project-technologies">
+            <p>TECHNOLOGIES</p>
+            <p>RoR, Backbone.js, Bootstrap, jQuery UI draggable, droppable</p>
+          </div>
+          <div id="trellino-description" class="project-description">
+            <p>A clone of the site Trello.com. It demonstrates the interactive jQuery UI library and how to transform web sites into web apps.</p>
+          </div>
+        </div>
+
+        <div id="asteroids-details">
+          <div id="asteroids-technologies" class="project-technologies">
+            <p>TECHNOLOGIES</p>
+            <p>Javascript, HTML5 canvas, underscore.js, jQuery</p>
+          </div>
+          <div id="asteroids-description" class="project-description">
+            <p>A remake of the classic arcade game!. Vector math was used to calculate asteroid trajectories. Upon disappearing off the screen, asteroids are removed and a new one is generated with random position and velocity.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div id="a3" class="section">
       <div class="content">
         <h2>CONTACT</h2>
         <div id="contact-box">
           <p>phil ingram</p>
           <p><a class="contact-info" id="email-contact" href="mailto:philip.d.ingram@gmail.com">philip.d.ingram@gmail.com</a></p>
-          
+
         </div>
 
         <div id="contact-links">
@@ -127,11 +140,12 @@
         </div>
 
         <div class="fluid-wrapper">
-          <!-- <iframe src="https://mapsengine.google.com/map/embed?mid=zqS2j8A5ORDs.kBN4J3hDOaKM" width="640" height="480"></iframe> -->
           <iframe src="https://mapsengine.google.com/map/embed?mid=zqS2j8A5ORDs.kBN4J3hDOaKM" width="583" height="480"></iframe>
         </div>
       </div>
-    </section>
+    </div>
 
-  </body>
+  </div> <!-- fullpage -->
+
+</body>
 </html>

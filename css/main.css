@@ -1,15 +1,10 @@
-/* JQUERY.WINDOWS */
-html {
+/*html {
   margin: 0;
   padding: 0; }
 
 body {
   margin: 0;
-  padding: 0; }
-
-.window {
-  width: 100%;
-  height: 100%; }
+  padding: 0; }*/
 
 /* ALL PAGES */
 h2 {
@@ -26,19 +21,27 @@ h2, p, h1, a {
 a {
   text-decoration: none; }
 
+.content {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
 /* PAGE 0 */
-section#a0 {
+#a0 {
   background: url(../images/california_joshua_tree_min3.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-  section#a0 #p1-name {
+  #a0 #p1-name {
     width: 100%;
     top: 20%;
-    position: absolute;
+    position: relative;
     margin: 0px; }
-    section#a0 #p1-name h1 {
+    #a0 #p1-name h1 {
       margin: inherit;
       font-size: 60px;
       color: #c9d6de;
@@ -47,7 +50,7 @@ section#a0 {
       text-shadow: 1px 1px 7px black;
       letter-spacing: 0.3em;
       font-weight: bold; }
-    section#a0 #p1-name p {
+    #a0 #p1-name p {
       margin: inherit;
       position: relative;
       font-size: 26px;
@@ -58,87 +61,87 @@ section#a0 {
       text-shadow: 1px 1px 7px black; }
 
 /* PAGE 1 */
-section#a1 {
-  background: url(../images/ironman_stark.jpg) no-repeat center center fixed;
+#a1 .content {
+  /*background: url(../images/ironman_stark.jpg) no-repeat center center fixed;*/
+  background: url(../images/ironman_stark.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; }
-  section#a1 h2 {
-    top: 105%; }
-  section#a1 #about-blurbs {
+  background-size: cover;
+}
+  #a1 h2 {
+    top: 5%; }
+  #a1 #about-blurbs {
     font-size: 18px;
     position: absolute;
-    top: 120%;
+    top: 20%;
     left: 55%;
     width: 40%;
     font-family: 'Montserrat', sans-serif; }
-  section#a1 #about-not-me {
+  #a1 #about-not-me {
     font-size: 30px;
     transform: rotate(-40deg);
     -ms-transform: rotate(-40deg);
-    /* IE 9 */
     -webkit-transform: rotate(-40deg);
-    /* Opera, Chrome, and Safari */
     position: absolute;
-    top: 123%;
+    top: 23%;
     left: 10%;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold; }
 
 /* PAGE 2 */
-section#a2 {
+#a2 {
   background: #274F7D; }
-  section#a2 h2 {
-    top: 205%; }
-  section#a2 .projects div {
+  #a2 h2 {
+    top: 5%; }
+  .projects div {
     display: inline-block;
     position: absolute; }
-  section#a2 .projects img {
+  .projects img {
     height: 300px;
     margin: 6px; }
-  section#a2 .projects img:hover {
+  .projects img:hover {
     margin: 4px;
     border: solid 2px #CCC;
     -moz-box-shadow: 2px 2px 5px #999;
     -webkit-box-shadow: 2px 2px 5px #999;
     box-shadow: 2px 2px 5px #999; }
-  section#a2 #projects1 div {
-    top: 220%; }
-  section#a2 #projects1 #project-phlickr {
+  #projects1 div {
+    top: 20%; }
+  #projects1 #project-phlickr {
     left: 5%; }
-  section#a2 #projects1 #project-trellino {
+  #projects1 #project-trellino {
     left: 53%; }
-  section#a2 #projects2 div {
-    top: 250%; }
-  section#a2 #projects2 #project-asteroids {
+  #projects2 div {
+    top: 50%; }
+  #projects2 #project-asteroids {
     left: 35%; }
-  section#a2 .project-technologies {
+  .project-technologies {
     position: absolute;
-    top: 268%;
+    top: 68%;
     width: 25%;
     left: 8%; }
-    section#a2 .project-technologies p:nth-child(2) {
+    .project-technologies p:nth-child(2) {
       font-size: 24px; }
-  section#a2 .project-description {
+  .project-description {
     font-size: 20px;
     position: absolute;
-    top: 268%;
+    top: 68%;
     width: 25%;
     left: 65%; }
-  section#a2 #phlickr-details, section#a2 #trellino-details, section#a2 #asteroids-details {
+  #phlickr-details, #trellino-details, #asteroids-details {
     display: none; }
 
 /* PAGE 3 */
-section#a3 {
+#a3 {
   background: #3B3B3B; }
-  section#a3 h2 {
+  #a3 h2 {
     color: #D8D8D8;
-    top: 305%;
+    top: 5%;
     text-shadow: 1px 1px 1px black; }
-  section#a3 #contact-box {
+  #a3 #contact-box {
     position: absolute;
-    top: 332%;
+    top: 32%;
     background: #606060;
     padding: 10px 40px;
     box-sizing: border-box;
@@ -151,67 +154,67 @@ section#a3 {
     -moz-box-shadow: 10px 10px 19px -2px rgba(0, 0, 0, 0.71);
     box-shadow: 10px 10px 19px -2px rgba(0, 0, 0, 0.71); }
     @media (min-width: 1200px) {
-      section#a3 #contact-box {
+      #a3 #contact-box {
         font-size: 24px;
         width: 34%;
         left: 8%; } }
     @media (max-width: 1200px) {
-      section#a3 #contact-box {
+      #a3 #contact-box {
         font-size: 22px;
         width: 40%;
         left: 5%; } }
     @media (max-width: 992px) {
-      section#a3 #contact-box {
+      #a3 #contact-box {
         font-size: 18px;
         width: 40%;
         left: 5%;
         padding: 10px 30px; } }
     @media (max-width: 768px) {
-      section#a3 #contact-box {
+      #a3 #contact-box {
         font-size: 12px;
         padding: 10px 20px; } }
-  section#a3 #contact-links {
+  #a3 #contact-links {
     position: absolute;
-    top: 360%;
+    top: 60%;
     width: 40%; }
     @media (min-width: 1200px) {
-      section#a3 #contact-links {
+      #a3 #contact-links {
         left: 12%; } }
     @media (max-width: 1200px) {
-      section#a3 #contact-links {
+      #a3 #contact-links {
         left: 10%; } }
     @media (max-width: 992px) {
-      section#a3 #contact-links {
+      #a3 #contact-links {
         left: 8%;
-        top: 355%; } }
+        top: 55%; } }
     @media (max-width: 768px) {
-      section#a3 #contact-links {
+      #a3 #contact-links {
         left: 8%;
-        top: 350%; } }
-    section#a3 #contact-links img {
+        top: 50%; } }
+    #a3 #contact-links img {
       width: 35%;
       padding: 5%;
       max-width: 110px; }
-    section#a3 #contact-links #github-contact img:hover {
+    #a3 #contact-links #github-contact img:hover {
       background: #888888;
       padding: 0%;
       margin: 5%;
       -webkit-border-radius: 9999px;
       -moz-border-radius: 9999px;
       border-radius: 9999px; }
-    section#a3 #contact-links #linkedin-contact img:hover {
+    #a3 #contact-links #linkedin-contact img:hover {
       background: #888888;
       padding: 0%;
       margin: 5%;
       -webkit-border-radius: 10px;
       -moz-border-radius: 10px;
       border-radius: 10px; }
-  section#a3 .fluid-wrapper {
+  #a3 .fluid-wrapper {
     position: absolute;
-    top: 320%;
+    top: 20%;
     left: 50%;
     height: 0; }
-    section#a3 .fluid-wrapper iframe {
+    #a3 .fluid-wrapper iframe {
       position: absolute;
       border: none;
       -webkit-box-shadow: 10px 10px 19px -2px rgba(0, 0, 0, 0.71);
