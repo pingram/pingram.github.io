@@ -15,7 +15,7 @@ body {
   text-align: center; }*/
 
 h2, p, h1, a {
-  color: #c9d6de;
+  color: #d5dadd;
   font-family: 'Montserrat', sans-serif; }
 
 a {
@@ -27,6 +27,7 @@ a {
   width: 100%;
   top: 0;
   left: 0;
+  /*margin-top: 57px;*/
 }
 
 #menu {
@@ -37,30 +38,23 @@ a {
   width: 100%;
   padding: 0;
   margin: 0;
-  /*background: rgba(255,255,255, 0.5);*/
 }
+  .nav-wrapper {
+    background-color: rgba(0, 0, 0, 0.5)
+  }
   #menu li {
   display: inline-block;
   margin: 10px 5px;
-  color: #000;
-  /*background: #fff;*/
-  /*background: rgba(255,255,255, 1);*/
-  background: lightgrey;
-  -webkit-border-radius: 10px;
-     -moz-border-radius: 10px;
-          border-radius: 10px;
-  border: solid 1px grey;
-  }
-  #menu li.active {
-    background: rgba(0,0,0, 0.5);
   }
     #menu li a {
       padding: 9px 18px;
       display: block;
-      color: #000;
+      font-weight: 900;
+      color: #aab4bb;
     }
     #menu li.active a{
-      color: #fff;
+      color: #e3e6e8;
+      font-weight: 900;
     }
 
 /* PAGE 0 */
