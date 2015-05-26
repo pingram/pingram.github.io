@@ -24,8 +24,10 @@
   <script type="text/javascript">
     $(document).ready(function() {
       $('#fullpage').fullpage({
+        anchors: ['home', 'about', 'portfolio', 'contact', 'lastPage'],
+        menu: '#menu'
         // sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
-        // anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
+        // anchors: ['home', 'about', '3rdPage', '4thpage', 'lastPage'],
         // menu: '#menu',
         // css3: true,
         // scrollingSpeed: 1000
@@ -34,6 +36,13 @@
   </script>
 </head>
 <body>
+
+  <ul id="menu">
+    <li data-menuanchor="home" class="active"><a href="#home">Home</a></li>
+    <li data-menuanchor="about"><a href="#about">About</a></li>
+    <li data-menuanchor="portfolio"><a href="#portfolio">Portfolio</a></li>
+    <li data-menuanchor="contact"><a href="#contact">Contact</a></li>
+  </ul>
 
   <div id="fullpage">
 
@@ -48,7 +57,7 @@
 
     <div id="a1" class="section">
       <div class="content">
-        <h2>ABOUT ME</h2>
+        <!-- <h2>ABOUT ME</h2> -->
         <div id="about-blurbs">
           <p id="about-blurb1">
             I'm a web developer living in San Francisco and enjoying every moment of it.
@@ -68,7 +77,7 @@
 
     <div id="a2" class="section">
       <div class="content">
-        <h2>PORTFOLIO</h2>
+        <!-- <h2>PORTFOLIO</h2> -->
 
         <div id="projects1" class="projects">
           <div id="project-phlickr">
@@ -127,7 +136,7 @@
 
     <div id="a3" class="section">
       <div class="content">
-        <h2>CONTACT</h2>
+        <!-- <h2>CONTACT</h2> -->
         <div id="contact-box">
           <p>phil ingram</p>
           <p><a class="contact-info" id="email-contact" href="mailto:philip.d.ingram@gmail.com">philip.d.ingram@gmail.com</a></p>

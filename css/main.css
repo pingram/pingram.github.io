@@ -7,12 +7,12 @@ body {
   padding: 0; }*/
 
 /* ALL PAGES */
-h2 {
+/*h2 {
   margin: 0px;
   font-size: 60px;
   width: 100%;
   position: absolute;
-  text-align: center; }
+  text-align: center; }*/
 
 h2, p, h1, a {
   color: #c9d6de;
@@ -29,6 +29,39 @@ a {
   left: 0;
 }
 
+#menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 70;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  /*background: rgba(255,255,255, 0.5);*/
+}
+  #menu li {
+  display: inline-block;
+  margin: 10px 5px;
+  color: #000;
+  /*background: #fff;*/
+  /*background: rgba(255,255,255, 1);*/
+  background: lightgrey;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border: solid 1px grey;
+  }
+  #menu li.active {
+    background: rgba(0,0,0, 0.5);
+  }
+    #menu li a {
+      padding: 9px 18px;
+      display: block;
+      color: #000;
+    }
+    #menu li.active a{
+      color: #fff;
+    }
+
 /* PAGE 0 */
 #a0 {
   background: url(../images/california_joshua_tree_min3.jpg) no-repeat center center fixed;
@@ -38,7 +71,7 @@ a {
   background-size: cover; }
   #a0 #p1-name {
     width: 100%;
-    top: 20%;
+    top: 25%;
     position: relative;
     margin: 0px; }
     #a0 #p1-name h1 {
