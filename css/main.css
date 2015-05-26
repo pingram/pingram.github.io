@@ -47,7 +47,8 @@ a {
   /*background: rgba(255,255,255, 1);*/
   background: lightgrey;
   -webkit-border-radius: 10px;
-  border-radius: 10px;
+     -moz-border-radius: 10px;
+          border-radius: 10px;
   border: solid 1px grey;
   }
   #menu li.active {
@@ -66,9 +67,9 @@ a {
 #a0 {
   background: url(../images/california_joshua_tree_min3.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover; }
   #a0 #p1-name {
     width: 100%;
     top: 25%;
@@ -98,9 +99,9 @@ a {
   /*background: url(../images/ironman_stark.jpg) no-repeat center center fixed;*/
   background: url(../images/ironman_stark.jpg);
   -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
 }
   #a1 h2 {
     top: 5%; }
@@ -113,9 +114,9 @@ a {
     font-family: 'Montserrat', sans-serif; }
   #a1 #about-not-me {
     font-size: 30px;
-    transform: rotate(-40deg);
-    -ms-transform: rotate(-40deg);
     -webkit-transform: rotate(-40deg);
+        -ms-transform: rotate(-40deg);
+            transform: rotate(-40deg);
     position: absolute;
     top: 23%;
     left: 10%;
@@ -132,13 +133,17 @@ a {
     position: absolute; }
   .projects img {
     height: 300px;
-    margin: 6px; }
+    margin: 6px;
+    -webkit-box-shadow: 3px 3px 10px -2px rgba(0, 0, 0, 0.71);
+       -moz-box-shadow: 3px 3px 10px -2px rgba(0, 0, 0, 0.71);
+            box-shadow: 3px 3px 10px -2px rgba(0, 0, 0, 0.71);
+  }
   .projects img:hover {
     margin: 4px;
     border: solid 2px #CCC;
-    -moz-box-shadow: 2px 2px 5px #999;
     -webkit-box-shadow: 2px 2px 5px #999;
-    box-shadow: 2px 2px 5px #999; }
+       -moz-box-shadow: 2px 2px 5px #999;
+            box-shadow: 2px 2px 5px #999; }
   #projects1 div {
     top: 15%; }
   #projects1 #project-phlickr {
@@ -181,11 +186,12 @@ a {
     background: rgba(255, 255, 255, 0.2);
     font-size: 24px;
     -webkit-border-radius: 7px;
-    -moz-border-radius: 7px;
-    border-radius: 7px;
-    -webkit-box-shadow: 10px 10px 19px -2px rgba(0, 0, 0, 0.71);
-    -moz-box-shadow: 10px 10px 19px -2px rgba(0, 0, 0, 0.71);
-    box-shadow: 10px 10px 19px -2px rgba(0, 0, 0, 0.71); }
+       -moz-border-radius: 7px;
+            border-radius: 7px;
+    -webkit-box-shadow: 3px 3px 10px -2px rgba(0, 0, 0, 0.71);
+       -moz-box-shadow: 3px 3px 10px -2px rgba(0, 0, 0, 0.71);
+            box-shadow: 3px 3px 10px -2px rgba(0, 0, 0, 0.71);
+  }
     @media (min-width: 1200px) {
       #a3 #contact-box {
         font-size: 24px;
@@ -233,15 +239,15 @@ a {
       padding: 0%;
       margin: 5%;
       -webkit-border-radius: 9999px;
-      -moz-border-radius: 9999px;
-      border-radius: 9999px; }
+         -moz-border-radius: 9999px;
+              border-radius: 9999px; }
     #a3 #contact-links #linkedin-contact img:hover {
       background: #888888;
       padding: 0%;
       margin: 5%;
       -webkit-border-radius: 10px;
-      -moz-border-radius: 10px;
-      border-radius: 10px; }
+         -moz-border-radius: 10px;
+              border-radius: 10px; }
   #a3 .fluid-wrapper {
     position: absolute;
     top: 20%;
@@ -250,6 +256,7 @@ a {
     #a3 .fluid-wrapper iframe {
       position: absolute;
       border: none;
-      -webkit-box-shadow: 10px 10px 19px -2px rgba(0, 0, 0, 0.71);
-      -moz-box-shadow: 10px 10px 19px -2px rgba(0, 0, 0, 0.71);
-      box-shadow: 10px 10px 19px -2px rgba(0, 0, 0, 0.71); }
+      -webkit-box-shadow: 3px 3px 10px -2px rgba(0, 0, 0, 0.71);
+         -moz-box-shadow: 3px 3px 10px -2px rgba(0, 0, 0, 0.71);
+              box-shadow: 3px 3px 10px -2px rgba(0, 0, 0, 0.71);
+    }
