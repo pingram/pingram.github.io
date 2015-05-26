@@ -43,8 +43,8 @@ a {
     background-color: rgba(0, 0, 0, 0.5)
   }
   #menu li {
-  display: inline-block;
-  margin: 10px 5px;
+    display: inline-block;
+    margin: 10px 5px;
   }
     #menu li a {
       padding: 9px 18px;
@@ -173,7 +173,7 @@ a {
     text-shadow: 1px 1px 1px black; }
   #a3 #contact-box {
     position: absolute;
-    top: 32%;
+    top: 27%;
     background: #606060;
     padding: 10px 40px;
     box-sizing: border-box;
@@ -208,7 +208,7 @@ a {
         padding: 10px 20px; } }
   #a3 #contact-links {
     position: absolute;
-    top: 60%;
+    top: 55%;
     width: 40%; }
     @media (min-width: 1200px) {
       #a3 #contact-links {
