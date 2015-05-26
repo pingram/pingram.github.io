@@ -140,29 +140,29 @@ a {
     -webkit-box-shadow: 2px 2px 5px #999;
     box-shadow: 2px 2px 5px #999; }
   #projects1 div {
-    top: 20%; }
+    top: 15%; }
   #projects1 #project-phlickr {
     left: 5%; }
   #projects1 #project-trellino {
     left: 53%; }
   #projects2 div {
-    top: 50%; }
-  #projects2 #project-asteroids {
-    left: 35%; }
+    top: 45%; }
+  #projects2 #project-curriculet {
+    left: 30%; }
   .project-technologies {
     position: absolute;
-    top: 68%;
-    width: 25%;
+    top: 63%;
+    width: 20%;
     left: 8%; }
     .project-technologies p:nth-child(2) {
       font-size: 24px; }
   .project-description {
     font-size: 20px;
     position: absolute;
-    top: 68%;
-    width: 25%;
-    left: 65%; }
-  #phlickr-details, #trellino-details, #asteroids-details {
+    top: 63%;
+    width: 20%;
+    left: 70%; }
+  #phlickr-details, #trellino-details, #curriculet-details {
     display: none; }
 
 /* PAGE 3 */

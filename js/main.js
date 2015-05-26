@@ -21,12 +21,12 @@ $(document).ready(function(){
     $('#trellino-details').hide();
   })
 
-  $('#project-asteroids').mouseover(function () {
-    $('#asteroids-details').show();
+  $('#project-curriculet').mouseover(function () {
+    $('#curriculet-details').show();
   })
 
-  $('#project-asteroids').mouseout(function () {
-    $('#asteroids-details').hide();
+  $('#project-curriculet').mouseout(function () {
+    $('#curriculet-details').hide();
   })
 });
 
