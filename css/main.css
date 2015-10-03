@@ -122,7 +122,52 @@ a {
   background: #274F7D; }
   #a2 h2 {
     top: 5%; }
-  .projects div {
+
+  .slide {
+    top: 15%;
+    height: 500px;
+  }
+  .slide-content {
+    padding-top: 4%;
+    margin-left: 15%;
+  }
+  .slide img {
+    /*margin: auto;*/
+    display: block;
+    float: left;
+    width: 45%;
+    -webkit-box-shadow: 3px 3px 10px -2px rgba(0, 0, 0, 0.71);
+       -moz-box-shadow: 3px 3px 10px -2px rgba(0, 0, 0, 0.71);
+            box-shadow: 3px 3px 10px -2px rgba(0, 0, 0, 0.71);
+  }
+
+  .slide .slide-text {
+    float: left;
+    width: 30%;
+    padding-left: 5%;
+  }
+
+  /*.slide-text .project-description {
+    padding-top: 20px;
+    font-size: 20px;
+  }
+  .project-technologies p:nth-child(2) {
+    font-size: 24px;
+  }
+  .project-description p:nth-child(2) {
+    font-size: 24px;
+  }*/
+  .slide-text {
+    font-size: 24px;
+  }
+  .slide-text .header {
+    font-size: 20px;
+  }
+  .slide-text .project-description {
+    margin-top: 100px;
+  }
+
+  /*.projects div {
     display: inline-block;
     position: absolute; }
   .projects img {
@@ -162,7 +207,7 @@ a {
     width: 20%;
     left: 70%; }
   #phlickr-details, #trellino-details, #curriculet-details {
-    display: none; }
+    display: none; }*/
 
 /* PAGE 3 */
 #a3 {

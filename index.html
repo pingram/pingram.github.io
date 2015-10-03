@@ -20,6 +20,7 @@
   <link rel="stylesheet" type="text/scss" href="css/adipoli.css">
   <link rel="stylesheet" type="text/scss" href="css/jquery.fullPage.css">
   <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/slick.css">
 
   <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
@@ -76,7 +77,46 @@
       <div class="content">
         <!-- <h2>PORTFOLIO</h2> -->
 
-        <div id="projects1" class="projects">
+        <!-- Phlickr -->
+        <div class="slide">
+          <div class="slide-content">
+
+            <a href="http://www.phlickr.co/" target="new">
+              <img src="images/phlickr_tall.png">
+            </a>
+
+            <div class="slide-text">
+              <div class="project-technologies">
+                <p class="header">TECHNOLOGIES</p>
+                <p>RoR, Backbone.js, Bootstrap, AWS , Flickr API, dropzone.js</p>
+              </div>
+              <div class="project-description">
+                <p class="header">DESCRIPTION</p>
+                <p>A clone of the site fickr.co. Things to note are the custom sizing algorithm on the explore page, the same page's infinite scroll and flickr API integration, and extensive use of Backbone.js</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="slide-content">
+            <a href="http://pingram-trellino.herokuapp.com/" target="new">
+              <img src="images/trellino_cover_300.png">
+            </a>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="slide-content">
+            <a href="http://www.curriculet.com/" target="new">
+              <img src="images/curriculet_cover_300.png">
+            </a>
+          </div>
+        </div>
+
+
+        <!-- <div id="projects1" class="projects">
           <div id="project-phlickr">
             <a href="http://www.phlickr.co/" target="new">
               <img src="images/phlickr_cover.jpg">
@@ -91,20 +131,14 @@
         </div>
 
         <div id="projects2" class="projects">
-       <!--     <div id="project-asteroids">
-            <a href="http://pingram.github.io/asteroids/" target="new">
-              <img src="images/asteroids_cover.jpg">
-            </a>
-          </div> -->
-
           <div id="project-curriculet">
             <a href="http://www.curriculet.com/" target="new">
               <img src="images/curriculet_cover_300.png">
             </a>
           </div>
-        </div>
+        </div> -->
 
-        <div id="phlickr-details">
+        <!-- <div id="phlickr-details">
           <div id="phlickr-technologies" class="project-technologies">
             <p>TECHNOLOGIES</p>
             <p>RoR, Backbone.js, Bootstrap, AWS , Flickr API, dropzone.js</p>
@@ -112,9 +146,9 @@
           <div id="phlickr-description" class="project-description">
             <p>A clone of the site fickr.co. Things to note are the custom sizing algorithm on the explore page, the same page's infinite scroll and flickr API integration, and extensive use of Backbone.js</p>
           </div>
-        </div>
+        </div> -->
 
-        <div id="trellino-details">
+  <!--       <div id="trellino-details">
           <div id="trellino-technologies" class="project-technologies">
             <p>TECHNOLOGIES</p>
             <p>RoR, Backbone.js, Bootstrap, jQuery UI draggable, droppable</p>
@@ -122,7 +156,7 @@
           <div id="trellino-description" class="project-description">
             <p>A clone of the site Trello.com. It demonstrates the interactive jQuery UI library and how to transform web sites into web apps.</p>
           </div>
-        </div>
+        </div>  -->
 
        <!-- <div id="asteroids-details">
         <div id="asteroids-technologies" class="project-technologies">
@@ -133,7 +167,7 @@
           <p>A remake of the classic arcade game!. Vector math was used to calculate asteroid trajectories. Upon disappearing off the screen, asteroids are removed and a new one is generated with random position and velocity.</p>
         </div> -->
 
-        <div id="curriculet-details">
+<!--         <div id="curriculet-details">
           <div id="curriculet-technologies" class="project-technologies">
             <p>TECHNOLOGIES</p>
             <p>Rails, MarionetteJS, AWS, Redis, Resque, Bootstrap, Compass</p>
@@ -141,7 +175,7 @@
           <div id="curriculet-description" class="project-description">
             <p>An interactive web app that allows students to respond to questions and quizzes in text. Teachers can then view the data.</p>
           </div>
-        </div>
+        </div> -->
 
       </div>
     </div>
@@ -171,6 +205,7 @@
   <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
   <script type="text/javascript" src="js/jquery.fullPage.js"></script>
   <script type="text/javascript" src="js/jquery.adipoli.min.js"></script>
+  <script type="text/javascript" src="js/slick.min.js"></script>
   <script type="text/javascript" src="js/main.js"></script>
 
   <script type="text/javascript">
@@ -179,6 +214,13 @@
         anchors: ['home', 'about', 'portfolio', 'contact', 'lastPage'],
         menu: '#menu'
       });
+
+      // $('.slide').slick({
+      //   slidesToShow: 1,
+      //   slidesToScroll: 1,
+      //   autoplay: true,
+      //   autoplaySpeed: 2000,
+      // });
     });
   </script>
 </html>
