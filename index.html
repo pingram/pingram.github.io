@@ -76,21 +76,42 @@
     <div id="a2" class="section">
       <div class="content">
 
-        <!-- Phlickr -->
+
+        <!-- MIMCO -->
         <div class="slide">
           <div class="slide-content">
-            <a href="http://www.phlickr.co/" target="new">
-              <img src="images/phlickr_tall.png">
+            <a href="http://www.mimcoinc.com/" target="new">
+              <img src="images/mimco_tall.png">
             </a>
 
             <div class="slide-text">
               <div class="project-technologies">
                 <p class="header">TECHNOLOGIES</p>
-                <p>RoR, Backbone.js, Bootstrap, AWS , Flickr API, dropzone.js</p>
+                <p>Rails, SASS, Bootstrap, LiveChat, Google Maps API</p>
               </div>
               <div class="project-description">
                 <p class="header">DESCRIPTION</p>
-                <p>A clone of the site fickr.co. Things to note are the custom sizing algorithm on the explore page, the same page's infinite scroll and flickr API integration, and extensive use of Backbone.js</p>
+                <p>MIMCO provides corporate real estate investment opportunities in Texas.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bidpay -->
+        <div class="slide">
+          <div class="slide-content">
+            <a href="http://www.bidpay.net/" target="new">
+              <img src="images/bidpay_tall.png">
+            </a>
+
+            <div class="slide-text">
+              <div class="project-technologies">
+                <p class="header">TECHNOLOGIES</p>
+                <p>Rails, AWS, DelayedJob, Sendgrid, SASS, Bootstrap</p>
+              </div>
+              <div class="project-description">
+                <p class="header">DESCRIPTION</p>
+                <p>BidPay allows suppliers and vendors to large companies to gain access to spot liquidity by submitting discount bids. If a bid is accepted, the supplier will receive a discount in exchange for immediate payment.</p>
               </div>
             </div>
           </div>
@@ -116,8 +137,28 @@
           </div>
         </div>
 
-        <!-- Trellino -->
+        <!-- Phlickr -->
         <div class="slide">
+          <div class="slide-content">
+            <a href="http://www.phlickr.co/" target="new">
+              <img src="images/phlickr_tall.png">
+            </a>
+
+            <div class="slide-text">
+              <div class="project-technologies">
+                <p class="header">TECHNOLOGIES</p>
+                <p>RoR, Backbone.js, Bootstrap, AWS , Flickr API, dropzone.js</p>
+              </div>
+              <div class="project-description">
+                <p class="header">DESCRIPTION</p>
+                <p>A clone of the site fickr.co. Things to note are the custom sizing algorithm on the explore page, the same page's infinite scroll and flickr API integration, and extensive use of Backbone.js</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Trellino -->
+ <!--        <div class="slide">
           <div class="slide-content">
             <a href="http://pingram-trellino.herokuapp.com/" target="new">
               <img src="images/trellino_tall.png">
@@ -134,10 +175,10 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
 
         <!-- Asteroids -->
-        <div class="slide">
+       <!--  <div class="slide">
           <div class="slide-content">
             <a href="http://pingram.co/asteroids/" target="new">
               <img src="images/asteroids_tall.png">
@@ -154,7 +195,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
 
       </div>
     </div>
@@ -194,12 +235,12 @@
         menu: '#menu'
       });
 
-      // $('.slide').slick({
-      //   slidesToShow: 1,
-      //   slidesToScroll: 1,
-      //   autoplay: true,
-      //   autoplaySpeed: 2000,
-      // });
+      $('.slide').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000
+      });
     });
   </script>
 </html>
